@@ -3,10 +3,13 @@ const inquirer = require('inquirer');
 
 const generateReadme = ({ Title, Description, Install, Application, Contribution, Test, License, Github, Email }) =>
 
-    `#${Title}   ${License}
+    `#${Title}   
     _________________
+
+    ${licenseBadge}
      
     ##Table of contents
+
     [Description](#description)
     [Installation](#installation)
     [How to use](#how-to-use)
@@ -17,21 +20,27 @@ const generateReadme = ({ Title, Description, Install, Application, Contribution
     __________________
 
 ###Description 
-    > ${Description}
+
+ ${Description}
 -----
  ###Installation
+
     ${Install}
 -----
 ###How to use
+
     ${Application}
 -----
 ###How to contribute
+
     ${Contribution}
 -----
 ###Tests
+
     ${Test}
 -----
 ###Questions
+
     [Github](${Github}) Email: <${Email}> `;
 
 // Displays prompts in terminal
@@ -103,7 +112,7 @@ inquirer
                             licenseBadge = '[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)';
                             break;
                             case 'Unlicensed':
-                                licsenseBadge = 'Unlicensed';
+                                licenseBadge = 'Unlicensed';
         };
 
         fs.writeFile('README.md', readmePageContent, (err) =>
