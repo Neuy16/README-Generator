@@ -6,7 +6,7 @@ const generateReadme = ({ Title, Description, Install, Application, Contribution
     `#${Title}   
     _________________
 
-    ${licenseBadge}
+    ${License}
      
     ##Table of contents
 
