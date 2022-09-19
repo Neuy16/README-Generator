@@ -1,13 +1,38 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
-const generateReadme = ({Title, Description, Install, Application, Contribution, Test, License}) => 
-    // # The largest heading
-    // ## The second largest heading
-    // ###### The smallest heading
-    `#${Title} 
-     `;
+const generateReadme = ({ Title, Description, Install, Application, Contribution, Test, License, Github, Email }) =>
 
+    `#${Title}   ${License}
+    _________________
+     
+    ##Table of contents
+    [Description](#description)
+    [Installation](#installation)
+    [How to use](#how-to-use)
+    [How to contribute](#how-to-contribute)
+    [Tests](#tests)
+    [Questions](#questions)
+
+    __________________
+
+###Description 
+    > ${Description}
+-----
+ ###Installation
+    ${Install}
+-----
+###How to use
+    ${Application}
+-----
+###How to contribute
+    ${Contribution}
+-----
+###Tests
+    ${Test}
+-----
+###Questions
+    [Github](${Github}) Email: <${Email}> `;
 
 // Displays prompts in terminal
 inquirer
@@ -43,13 +68,14 @@ inquirer
             name: 'Test',
         },
         {
-            type: 'input',
+            type: 'list',
             message: 'Any licenses?',
             name: 'License',
+            choices: ['BSD', 'MPL', 'AGPL', 'Public domain', 'Unlicensed']
         },
         {
             type: 'input',
-            message: 'Enter your Github.',
+            message: 'Enter the url to your Github.',
             name: 'Github',
         },
         {
@@ -62,10 +88,26 @@ inquirer
         const readmePageContent = generateReadme(response);
         console.log(response);
         console.log(readmePageContent);
-
+        let licenseBadge = '';
+        switch(response.License) {
+            case 'BSD':
+             licenseBadge = '[![License](https://img.shields.io/badge/License-BSD_3--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)';
+             break;
+             case 'MPL':
+                    licenseBadge = '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+                    break;
+                    case 'AGPL':
+                        licenseBadge = '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)';
+                        break;
+                        case 'Public Domain':
+                            licenseBadge = '[![License: CC0-1.0](https://licensebuttons.net/l/zero/1.0/80x15.png)](http://creativecommons.org/publicdomain/zero/1.0/)';
+                            break;
+                            case 'Unlicensed':
+                                licsenseBadge = 'Unlicensed';
+        };
 
         fs.writeFile('README.md', readmePageContent, (err) =>
-            err ? console.error(err) : console.log('Niceeeee')
+            err ? console.error(err) : console.log('✔️ README has been created!')
         );
     });
 
@@ -94,7 +136,7 @@ inquirer
 
 // WHEN I enter my GitHub username
 // THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-
+ 
 // WHEN I enter my email address
 // THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
 
