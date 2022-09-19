@@ -1,7 +1,10 @@
-#s   BSD
+#Readme Generator   
     _________________
+
+    BSD
      
     ##Table of contents
+
     [Description](#description)
     [Installation](#installation)
     [How to use](#how-to-use)
@@ -12,19 +15,25 @@
     __________________
 
 ###Description 
-    > s
+
+ Creating a readme
 -----
  ###Installation
-    s
+
+    clone repo
 -----
 ###How to use
-    s
+
+    Follow video
 -----
 ###How to contribute
-    s
+
+    none
 -----
 ###Tests
-    s
+
+    none
 -----
 ###Questions
-    [Github](s) Email: <s> 
+
+    [Github](neuy15) Email: <neuwirth.andrew9@gmail.com> 
