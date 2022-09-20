@@ -4,17 +4,17 @@
      
 ##Table of contents
 
-###*[Description](#Description)
+[Description](#Description)
 
-###*[Installation](#Installation)
+[Installation](#Installation)
 
-###*[How to use](#How-to-use)
+[How to use](#how-to-use)
 
-###*[How to contribute](#How-to-contribute)
+[How to contribute](#how-to-contribute)
 
-###*[Tests](#Tests)
+[Tests](#tests)
 
-###*[Questions](#Questions)
+[Questions](#questions)
 
 -----
 ###Description 
@@ -39,4 +39,4 @@
 -----
 ###Questions
 
-    [Github](https://github.com/Neuy16) Email: <neuwirth.andrew9@gmail.com>
+[Github](https://github.com/Neuy16 "Neuy's Github") Email: <neuwirth.andrew9@gmail.com>
