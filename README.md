@@ -1,4 +1,4 @@
-#dasg   
+#README Generator   
 
     
      
@@ -19,24 +19,24 @@
 -----
 ###Description 
 
-    dfd
+    This application was created simply to make creating README's easier and more streamline. This allows you to dynamically yet quickly create a README page, simply by answering a few questions in the terminal!
 
 ###Installation
 
-    bcvxb
+    To install, clone this repository into your own project.
 -----
 ###How to use
 
-    srf
+    *REFER TO VIDEO IN ASSETS FOLDER*
 -----
 ###How to contribute
 
-    thd
+    There is no contributing to this project.
 -----
 ###Tests
 
-    b
+    NONE
 -----
 ###Questions
 
-    [Github](s) Email: <dh>
+    [Github](https://github.com/Neuy16) Email: <neuwirth.andrew9@gmail.com>
