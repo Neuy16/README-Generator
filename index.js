@@ -4,7 +4,7 @@ const inquirer = require('inquirer');
 const generateReadme = ({ Title, Description, Install, Application, Contribution, Test, License, Github, Email }) =>
 
     `#${Title}   
-    _________________
+
 
     ${License}
      
@@ -17,7 +17,6 @@ const generateReadme = ({ Title, Description, Install, Application, Contribution
     ###*[Tests](#tests)
     ###*[Questions](#questions)
 
-    __________________
 
 ###Description 
 
