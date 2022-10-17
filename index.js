@@ -10,17 +10,17 @@ const generateReadme = ({ Title, Description, Install, Application, Contribution
      
 ##Table of contents
 
-*[Description](#Description)
+* [Description](#Description)
 
-*[Installation](#Installation)
+* [Installation](#Installation)
 
-*[How to use](#How-to-use)
+* [How to use](#How-to-use)
 
-*[How to contribute](#How-to-contribute)
+* [How to contribute](#How-to-contribute)
 
-*[Tests](#Tests)
+* [Tests](#Tests)
 
-*[Questions](#Questions)
+* [Questions](#Questions)
 
 -----
 ##Description 
