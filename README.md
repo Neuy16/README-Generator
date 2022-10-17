@@ -1,42 +1,42 @@
-#README Generator   
+#terst   
 
-    
+    MPL
      
 ##Table of contents
 
-[Description](#Description)
+*[Description](#Description)
 
-[Installation](#Installation)
+*[Installation](#Installation)
 
-[How to use](#how-to-use)
+*[How to use](#How-to-use)
 
-[How to contribute](#how-to-contribute)
+*[How to contribute](#How-to-contribute)
 
-[Tests](#tests)
+*[Tests](#Tests)
 
-[Questions](#questions)
+*[Questions](#Questions)
 
 -----
-###Description 
+##Description 
 
-    This application was created simply to make creating README's easier and more streamline. This allows you to dynamically yet quickly create a README page, simply by answering a few questions in the terminal!
+    xcvfd
 
-###Installation
+##Installation
 
-    To install, clone this repository into your own project.
+    none
 -----
-###How to use
+##How to use
 
-    *REFER TO VIDEO IN ASSETS FOLDER*
+    use it
 -----
-###How to contribute
+##How to contribute
 
-    There is no contributing to this project.
+    none
 -----
-###Tests
+##Tests
 
-    NONE
+    No tests
 -----
-###Questions
+##Questions
 
-[Github](https://github.com/Neuy16 "Neuy's Github") Email: <neuwirth.andrew9@gmail.com>
+    [Github](neuy16) Email: <test@gmail.com>
