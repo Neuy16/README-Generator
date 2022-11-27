@@ -11,39 +11,38 @@ const generateReadme = ({ Title, Description, Install, Application, Contribution
 ##Table of contents
 
 * [Description](#Description)
-
 * [Installation](#Installation)
-
 * [How to use](#How-to-use)
-
 * [How to contribute](#How-to-contribute)
-
 * [Tests](#Tests)
-
 * [Questions](#Questions)
 
 -----
-##Description 
+## Description 
 
     ${Description}
 
-##Installation
+## Installation
 
     ${Install}
+
 -----
-##How to use
+## How to use
 
     ${Application}
+
 -----
-##How to contribute
+## How to contribute
 
     ${Contribution}
+
 -----
-##Tests
+## Tests
 
     ${Test}
+
 -----
-##Questions
+## Questions
 
     [Github](${Github}) Email: <${Email}>`;
 

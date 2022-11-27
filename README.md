@@ -1,42 +1,41 @@
-#README Generator   
+#Sql Employee Tracker   
 
-    Unlicensed
+    BSD
      
 ##Table of contents
 
 * [Description](#Description)
-
 * [Installation](#Installation)
-
 * [How to use](#How-to-use)
-
 * [How to contribute](#How-to-contribute)
-
 * [Tests](#Tests)
-
 * [Questions](#Questions)
 
+-----
+## Description 
 
-##Description 
+    asd
 
-    This application was created simply to make creating README's easier and more streamline. This allows you to dynamically yet quickly create a README page, simply by answering a few questions in the terminal!
+## Installation
 
-##Installation
+    asd
 
-    To install, clone this repository into your own project.
+-----
+## How to use
 
-##How to use
+    asd
 
-    *REFER TO VIDEO IN ASSETS FOLDER*
+-----
+## How to contribute
 
-##How to contribute
+    asd
 
-    No contributing allowed
+-----
+## Tests
 
-##Tests
+    asd
 
-    No tests
+-----
+## Questions
 
-##Questions
-
-    [Github](neuy16) Email: <neuwirth.andrew9@gmail.com>
+    [Github](asd) Email: <asd>
