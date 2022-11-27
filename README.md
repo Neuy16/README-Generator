@@ -1,6 +1,6 @@
-#Sql Employee Tracker   
+#apples   
 
-    BSD
+    Unlicensed
      
 ##Table of contents
 
@@ -14,28 +14,28 @@
 -----
 ## Description 
 
-    asd
+    apples and apple trees
 
 ## Installation
 
-    asd
+    None
 
 -----
 ## How to use
 
-    asd
+    See video
 
 -----
 ## How to contribute
 
-    asd
+    No contribution
 
 -----
 ## Tests
 
-    asd
+    No tests
 
 -----
 ## Questions
 
-    [Github](asd) Email: <asd>
+    [Github](neuy16) Email: <input>
