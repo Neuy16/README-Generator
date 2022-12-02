@@ -1,4 +1,4 @@
-#apples   
+#Readme Generator   
 
     Unlicensed
      
@@ -14,28 +14,28 @@
 -----
 ## Description 
 
-    apples and apple trees
+    This application allows the user to create a dynamic readme for whatever project they may be working on. This app prompts you with multiple different questions to seed the readme. When its done you're given a proffesional readme to use for you current project.
 
 ## Installation
 
-    None
+    Clone repository
 
 -----
 ## How to use
 
-    See video
+    Refer video
 
 -----
 ## How to contribute
 
-    No contribution
+    NONE
 
 -----
 ## Tests
 
-    No tests
+    NONE
 
 -----
 ## Questions
 
-    [Github](neuy16) Email: <input>
+    [Github](https://github.com/Neuy16) Email: <neuwirth.andrew9@gmail.com>
