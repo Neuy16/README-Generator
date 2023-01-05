@@ -1,8 +1,8 @@
-#Book Search Mern Application   
+# React Portfolio   
 
     Unlicensed
      
-##Table of contents
+## Table of contents
 
 * [Description](#Description)
 * [Installation](#Installation)
@@ -11,31 +11,31 @@
 * [Tests](#Tests)
 * [Questions](#Questions)
 
------
+
 ## Description 
 
-    This project was about refactoring a fully functioning Google Books Api search engine built with a RESTful API and converting it to a GraphQL API with Apollo Server. The app was built using a MERN stack with a React front end, MongoDB databse, Node.js, and an Express.js server.
+    This project is a rendition of my original portfolio using newly learned skills from the class. It is a single page application based on the foundation of React.js. It contains 2 of my previous projects, an about me section, a form to contact me at, and a shortened resume as well as a full downloadable resume.
 
 ## Installation
 
-    Clone repository, run 'npm i' to install packages, run 'npm run develop' to start server
+    To install this project, use (git clone <REPONAME>) in the terminal, then run (npm init) to install all necessary packages and dependencies.
 
------
+
 ## How to use
 
-    Once the server starts, the site with run locally on your web browser where you can then navigate
+    *IF INSTALL FOR YOURSELF* (run (npm start) in the terminal to start development server. The server should start your default broswer and load the page there). Using the navigation bar at the top of the page, you can cycle through all 4 tabs to find theyre respective content.
 
------
+
 ## How to contribute
 
-    NONE
+    NO CONTRIBUTION. Download for yourself but be sure to give credit, instructors will find out that its not your code.
 
------
+
 ## Tests
 
     NONE
 
------
+
 ## Questions
 
     [Github](https://github.com/Neuy16) Email: <neuwirth.andrew9@gmail.com>

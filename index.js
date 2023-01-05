@@ -13,11 +13,11 @@ const generateReadme = ({
   Github,
   Email,
 }) =>
-  `#${Title}   
+  `# ${Title}   
 
-    ${License}
+${License}
      
-##Table of contents
+## Table of contents
 
 * [Description](#Description)
 * [Installation](#Installation)
@@ -26,34 +26,34 @@ const generateReadme = ({
 * [Tests](#Tests)
 * [Questions](#Questions)
 
------
+
 ## Description 
 
-    ${Description}
+${Description}
 
 ## Installation
 
-    ${Install}
+${Install}
 
------
+
 ## How to use
 
-    ${Application}
+${Application}
 
------
+
 ## How to contribute
 
-    ${Contribution}
+${Contribution}
 
------
+
 ## Tests
 
-    ${Test}
+${Test}
 
------
+
 ## Questions
 
-    [Github](${Github}) Email: <${Email}>`;
+[Github](${Github}) Email: <${Email}>`;
 
 // Displays prompts in terminal
 inquirer
